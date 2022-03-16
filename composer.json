@@ -1,0 +1,23 @@
+{
+    "name": "hore/demo-package",
+    "description": "Hanya untuk Demo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yusuf Alvin"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hore\\DemoPackage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hore\\DemoPackage\\DemoPackageServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
